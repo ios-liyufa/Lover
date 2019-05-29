@@ -18,7 +18,7 @@
     [button setImage:backImg forState:UIControlStateHighlighted];
     button.size = CGSizeMake(60, 32);
     // 设置按钮的内边距
-    //button.contentEdgeInsets = UIEdgeInsetsMake(0, -10, 0, 0);
+    //button.contentEdgeInsets = UIEdgeInsetsMake(0, -10, 0, 0); //为什么不加这句呢
     // 让按钮内部的内容左对齐
     button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
     return button;
