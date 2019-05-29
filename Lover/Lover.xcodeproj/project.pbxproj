@@ -1,0 +1,915 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		696BAB8380AF75847828FF18 /* libPods-Lover.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6B557494841ABCF8A6AD22 /* libPods-Lover.a */; };
+		810C0326206DDC48006EFB82 /* LYFVerifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 810C0324206DDC48006EFB82 /* LYFVerifyViewController.m */; };
+		810C0327206DDC48006EFB82 /* LYFVerifyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 810C0325206DDC48006EFB82 /* LYFVerifyViewController.xib */; };
+		811EA3D8200CADE4004AE1CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 811EA3D7200CADE4004AE1CA /* AppDelegate.m */; };
+		811EA3DE200CADE4004AE1CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811EA3DC200CADE4004AE1CA /* Main.storyboard */; };
+		811EA3E0200CADE4004AE1CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811EA3DF200CADE4004AE1CA /* Assets.xcassets */; };
+		811EA3E3200CADE4004AE1CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811EA3E1200CADE4004AE1CA /* LaunchScreen.storyboard */; };
+		811EA3E6200CADE4004AE1CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 811EA3E5200CADE4004AE1CA /* main.m */; };
+		812C0BA3206341ED007DA666 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 812C0B9B206341ED007DA666 /* MMDrawerBarButtonItem.m */; };
+		812C0BA4206341ED007DA666 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 812C0B9E206341ED007DA666 /* MMDrawerController.m */; };
+		812C0BA5206341ED007DA666 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 812C0BA0206341ED007DA666 /* MMDrawerVisualState.m */; };
+		812C0BA6206341ED007DA666 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 812C0BA2206341ED007DA666 /* UIViewController+MMDrawerController.m */; };
+		812C0BA9206346B5007DA666 /* LYFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 812C0BA8206346B5007DA666 /* LYFNavigationController.m */; };
+		812C0BB02063485A007DA666 /* LYFBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 812C0BAF2063485A007DA666 /* LYFBaseTableViewController.m */; };
+		812C0BB420634893007DA666 /* LYFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 812C0BB320634893007DA666 /* LYFBaseViewController.m */; };
+		812C0BB7206348CA007DA666 /* LYFCenterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 812C0BB6206348CA007DA666 /* LYFCenterTableViewController.m */; };
+		812C0BBA20634D0D007DA666 /* LYFTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 812C0BB920634D0D007DA666 /* LYFTableViewController.m */; };
+		81340C532069F9ED00AA4584 /* LYFLaunchPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81340C522069F9ED00AA4584 /* LYFLaunchPageViewController.m */; };
+		81340C5B2069FD1700AA4584 /* AppDelegate+DSSideDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 81340C5A2069FD1700AA4584 /* AppDelegate+DSSideDrawer.m */; };
+		81340C63206A203B00AA4584 /* CALayer+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 81340C60206A203B00AA4584 /* CALayer+Transition.m */; };
+		81340C68206A28E700AA4584 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 81340C67206A28E700AA4584 /* video.mp4 */; };
+		81910C96206493DC00B057CE /* LYFWEViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81910C95206493DC00B057CE /* LYFWEViewController.xib */; };
+		81C979B220635A62002DB87A /* LYFSideDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C979B120635A62002DB87A /* LYFSideDrawerViewController.m */; };
+		81C979B520635BCC002DB87A /* LYFRightSideDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C979B420635BCC002DB87A /* LYFRightSideDrawerViewController.m */; };
+		81C979B9206360F6002DB87A /* MMExampleDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C979B7206360F6002DB87A /* MMExampleDrawerVisualStateManager.m */; };
+		81C979BE20638863002DB87A /* LYFBackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C979BD20638863002DB87A /* LYFBackButton.m */; };
+		81C979C5206389A6002DB87A /* UIView+LYFExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C979C4206389A6002DB87A /* UIView+LYFExtention.m */; };
+		81C979C820638AC3002DB87A /* LYFTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C979C720638AC3002DB87A /* LYFTabBarViewController.m */; };
+		81C979D720638FBB002DB87A /* LYFLiYuanYuanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C979D620638FBB002DB87A /* LYFLiYuanYuanViewController.m */; };
+		81C979DA20638FDA002DB87A /* LYFWEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C979D920638FDA002DB87A /* LYFWEViewController.m */; };
+		81C979EA206394F9002DB87A /* me@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81C979DE206394F8002DB87A /* me@2x.png */; };
+		81C979EB206394F9002DB87A /* me@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81C979DF206394F8002DB87A /* me@3x.png */; };
+		81C979EC206394F9002DB87A /* me_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81C979E0206394F8002DB87A /* me_select@2x.png */; };
+		81C979ED206394F9002DB87A /* me_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81C979E1206394F8002DB87A /* me_select@3x.png */; };
+		81C979EE206394F9002DB87A /* we@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81C979E2206394F8002DB87A /* we@2x.png */; };
+		81C979EF206394F9002DB87A /* we@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81C979E3206394F8002DB87A /* we@3x.png */; };
+		81C979F0206394F9002DB87A /* we_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81C979E4206394F8002DB87A /* we_select@2x.png */; };
+		81C979F1206394F9002DB87A /* we_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81C979E5206394F8002DB87A /* we_select@3x.png */; };
+		81C979F2206394F9002DB87A /* you@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81C979E6206394F8002DB87A /* you@2x.png */; };
+		81C979F3206394F9002DB87A /* you@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81C979E7206394F8002DB87A /* you@3x.png */; };
+		81C979F4206394F9002DB87A /* you_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81C979E8206394F8002DB87A /* you_select@2x.png */; };
+		81C979F5206394F9002DB87A /* you_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81C979E9206394F9002DB87A /* you_select@3x.png */; };
+		81DCE3EF206CC74200B571E0 /* weixin.png in Resources */ = {isa = PBXBuildFile; fileRef = 81DCE3EE206CC74200B571E0 /* weixin.png */; };
+		81DCE3F1206CC8E200B571E0 /* qq.png in Resources */ = {isa = PBXBuildFile; fileRef = 81DCE3F0206CC8E200B571E0 /* qq.png */; };
+		81DCE3F3206CCAA000B571E0 /* mobile.png in Resources */ = {isa = PBXBuildFile; fileRef = 81DCE3F2206CCAA000B571E0 /* mobile.png */; };
+		81DCE3FC206CD2D600B571E0 /* LYFLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DCE3FA206CD2D600B571E0 /* LYFLoginViewController.m */; };
+		81DCE3FD206CD2D600B571E0 /* LYFLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81DCE3FB206CD2D600B571E0 /* LYFLoginViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C6B557494841ABCF8A6AD22 /* libPods-Lover.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Lover.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		810C0323206DDC48006EFB82 /* LYFVerifyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFVerifyViewController.h; sourceTree = "<group>"; };
+		810C0324206DDC48006EFB82 /* LYFVerifyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFVerifyViewController.m; sourceTree = "<group>"; };
+		810C0325206DDC48006EFB82 /* LYFVerifyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYFVerifyViewController.xib; sourceTree = "<group>"; };
+		811EA3D3200CADE4004AE1CA /* Lover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		811EA3D6200CADE4004AE1CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		811EA3D7200CADE4004AE1CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		811EA3DD200CADE4004AE1CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		811EA3DF200CADE4004AE1CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		811EA3E2200CADE4004AE1CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		811EA3E4200CADE4004AE1CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		811EA3E5200CADE4004AE1CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		812C0B9A206341ED007DA666 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		812C0B9B206341ED007DA666 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		812C0B9C206341ED007DA666 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		812C0B9D206341ED007DA666 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		812C0B9E206341ED007DA666 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		812C0B9F206341ED007DA666 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		812C0BA0206341ED007DA666 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		812C0BA1206341ED007DA666 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		812C0BA2206341ED007DA666 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		812C0BA7206346B5007DA666 /* LYFNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFNavigationController.h; sourceTree = "<group>"; };
+		812C0BA8206346B5007DA666 /* LYFNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFNavigationController.m; sourceTree = "<group>"; };
+		812C0BAE2063485A007DA666 /* LYFBaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFBaseTableViewController.h; sourceTree = "<group>"; };
+		812C0BAF2063485A007DA666 /* LYFBaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFBaseTableViewController.m; sourceTree = "<group>"; };
+		812C0BB220634893007DA666 /* LYFBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFBaseViewController.h; sourceTree = "<group>"; };
+		812C0BB320634893007DA666 /* LYFBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFBaseViewController.m; sourceTree = "<group>"; };
+		812C0BB5206348CA007DA666 /* LYFCenterTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFCenterTableViewController.h; sourceTree = "<group>"; };
+		812C0BB6206348CA007DA666 /* LYFCenterTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFCenterTableViewController.m; sourceTree = "<group>"; };
+		812C0BB820634D0D007DA666 /* LYFTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFTableViewController.h; sourceTree = "<group>"; };
+		812C0BB920634D0D007DA666 /* LYFTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFTableViewController.m; sourceTree = "<group>"; };
+		812C0BBD20635390007DA666 /* LYFPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFPrefixHeader.pch; sourceTree = "<group>"; };
+		812C0BBE206356A6007DA666 /* LYFMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFMacros.h; sourceTree = "<group>"; };
+		81340C512069F9ED00AA4584 /* LYFLaunchPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFLaunchPageViewController.h; sourceTree = "<group>"; };
+		81340C522069F9ED00AA4584 /* LYFLaunchPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFLaunchPageViewController.m; sourceTree = "<group>"; };
+		81340C592069FD1700AA4584 /* AppDelegate+DSSideDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+DSSideDrawer.h"; sourceTree = "<group>"; };
+		81340C5A2069FD1700AA4584 /* AppDelegate+DSSideDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+DSSideDrawer.m"; sourceTree = "<group>"; };
+		81340C5F206A203B00AA4584 /* CALayer+Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Transition.h"; sourceTree = "<group>"; };
+		81340C60206A203B00AA4584 /* CALayer+Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Transition.m"; sourceTree = "<group>"; };
+		81340C67206A28E700AA4584 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		81910C95206493DC00B057CE /* LYFWEViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYFWEViewController.xib; sourceTree = "<group>"; };
+		81C979B020635A62002DB87A /* LYFSideDrawerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFSideDrawerViewController.h; sourceTree = "<group>"; };
+		81C979B120635A62002DB87A /* LYFSideDrawerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFSideDrawerViewController.m; sourceTree = "<group>"; };
+		81C979B320635BCC002DB87A /* LYFRightSideDrawerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFRightSideDrawerViewController.h; sourceTree = "<group>"; };
+		81C979B420635BCC002DB87A /* LYFRightSideDrawerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFRightSideDrawerViewController.m; sourceTree = "<group>"; };
+		81C979B7206360F6002DB87A /* MMExampleDrawerVisualStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExampleDrawerVisualStateManager.m; sourceTree = "<group>"; };
+		81C979B8206360F6002DB87A /* MMExampleDrawerVisualStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMExampleDrawerVisualStateManager.h; sourceTree = "<group>"; };
+		81C979BC20638863002DB87A /* LYFBackButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFBackButton.h; sourceTree = "<group>"; };
+		81C979BD20638863002DB87A /* LYFBackButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFBackButton.m; sourceTree = "<group>"; };
+		81C979C3206389A6002DB87A /* UIView+LYFExtention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LYFExtention.h"; sourceTree = "<group>"; };
+		81C979C4206389A6002DB87A /* UIView+LYFExtention.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LYFExtention.m"; sourceTree = "<group>"; };
+		81C979C620638AC3002DB87A /* LYFTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFTabBarViewController.h; sourceTree = "<group>"; };
+		81C979C720638AC3002DB87A /* LYFTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFTabBarViewController.m; sourceTree = "<group>"; };
+		81C979D520638FBB002DB87A /* LYFLiYuanYuanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFLiYuanYuanViewController.h; sourceTree = "<group>"; };
+		81C979D620638FBB002DB87A /* LYFLiYuanYuanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFLiYuanYuanViewController.m; sourceTree = "<group>"; };
+		81C979D820638FDA002DB87A /* LYFWEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFWEViewController.h; sourceTree = "<group>"; };
+		81C979D920638FDA002DB87A /* LYFWEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFWEViewController.m; sourceTree = "<group>"; };
+		81C979DE206394F8002DB87A /* me@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me@2x.png"; sourceTree = "<group>"; };
+		81C979DF206394F8002DB87A /* me@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me@3x.png"; sourceTree = "<group>"; };
+		81C979E0206394F8002DB87A /* me_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_select@2x.png"; sourceTree = "<group>"; };
+		81C979E1206394F8002DB87A /* me_select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me_select@3x.png"; sourceTree = "<group>"; };
+		81C979E2206394F8002DB87A /* we@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "we@2x.png"; sourceTree = "<group>"; };
+		81C979E3206394F8002DB87A /* we@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "we@3x.png"; sourceTree = "<group>"; };
+		81C979E4206394F8002DB87A /* we_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "we_select@2x.png"; sourceTree = "<group>"; };
+		81C979E5206394F8002DB87A /* we_select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "we_select@3x.png"; sourceTree = "<group>"; };
+		81C979E6206394F8002DB87A /* you@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "you@2x.png"; sourceTree = "<group>"; };
+		81C979E7206394F8002DB87A /* you@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "you@3x.png"; sourceTree = "<group>"; };
+		81C979E8206394F8002DB87A /* you_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "you_select@2x.png"; sourceTree = "<group>"; };
+		81C979E9206394F9002DB87A /* you_select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "you_select@3x.png"; sourceTree = "<group>"; };
+		81DCE3EE206CC74200B571E0 /* weixin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weixin.png; sourceTree = "<group>"; };
+		81DCE3F0206CC8E200B571E0 /* qq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qq.png; sourceTree = "<group>"; };
+		81DCE3F2206CCAA000B571E0 /* mobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mobile.png; sourceTree = "<group>"; };
+		81DCE3F9206CD2D600B571E0 /* LYFLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFLoginViewController.h; sourceTree = "<group>"; };
+		81DCE3FA206CD2D600B571E0 /* LYFLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFLoginViewController.m; sourceTree = "<group>"; };
+		81DCE3FB206CD2D600B571E0 /* LYFLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYFLoginViewController.xib; sourceTree = "<group>"; };
+		891AB943F40E47F647E2D585 /* Pods-Lover.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lover.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lover/Pods-Lover.debug.xcconfig"; sourceTree = "<group>"; };
+		C56B80AD4D7DE1EEE0A41F74 /* Pods-Lover.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lover.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lover/Pods-Lover.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		811EA3D0200CADE4004AE1CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696BAB8380AF75847828FF18 /* libPods-Lover.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		811EA3CA200CADE4004AE1CA = {
+			isa = PBXGroup;
+			children = (
+				811EA3D5200CADE4004AE1CA /* Lover */,
+				811EA3D4200CADE4004AE1CA /* Products */,
+				C4C6F857F7EAC76233A7A9E4 /* Pods */,
+				CFAF64AA2981A610FD75517D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		811EA3D4200CADE4004AE1CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				811EA3D3200CADE4004AE1CA /* Lover.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		811EA3D5200CADE4004AE1CA /* Lover */ = {
+			isa = PBXGroup;
+			children = (
+				811EA3EF200CAEE0004AE1CA /* Class */,
+				811EA3EE200CAECA004AE1CA /* Other */,
+				811EA3ED200CAEC2004AE1CA /* Base */,
+			);
+			path = Lover;
+			sourceTree = "<group>";
+		};
+		811EA3ED200CAEC2004AE1CA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				812C0B9320633F73007DA666 /* SideDrawerViewController */,
+				812C0B9620633FFB007DA666 /* AppDelegate */,
+				812C0BAD20634832007DA666 /* BaseViewController */,
+				812C0B9420633F84007DA666 /* NavigationController */,
+				812C0B9520633FDB007DA666 /* TabBarController */,
+				81C979BA20638825002DB87A /* Common */,
+				81340C4E2069F02A00AA4584 /* LunchScreen */,
+				81340C4F2069F04900AA4584 /* Support Files */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		811EA3EE200CAECA004AE1CA /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				81340C502069F0FD00AA4584 /* ThirdParty */,
+				81340C4C2069EFFA00AA4584 /* Config */,
+				81340C4B2069EFEB00AA4584 /* Manager */,
+				81340C4A2069EFC800AA4584 /* NetWork */,
+				81C979DB206394C2002DB87A /* Resource */,
+				81C979C220638975002DB87A /* Category */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		811EA3EF200CAEE0004AE1CA /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				81DCE3ED206CB77F00B571E0 /* LoginAndRegister */,
+				81C979CB20638D9C002DB87A /* WE */,
+				81C979CA20638D83002DB87A /* YOUR */,
+				81C979C920638D75002DB87A /* ME */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		812C0B9320633F73007DA666 /* SideDrawerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				81C979B020635A62002DB87A /* LYFSideDrawerViewController.h */,
+				81C979B120635A62002DB87A /* LYFSideDrawerViewController.m */,
+				81C979B320635BCC002DB87A /* LYFRightSideDrawerViewController.h */,
+				81C979B420635BCC002DB87A /* LYFRightSideDrawerViewController.m */,
+			);
+			path = SideDrawerViewController;
+			sourceTree = "<group>";
+		};
+		812C0B9420633F84007DA666 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				812C0BA7206346B5007DA666 /* LYFNavigationController.h */,
+				812C0BA8206346B5007DA666 /* LYFNavigationController.m */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		812C0B9520633FDB007DA666 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				81C979C620638AC3002DB87A /* LYFTabBarViewController.h */,
+				81C979C720638AC3002DB87A /* LYFTabBarViewController.m */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		812C0B9620633FFB007DA666 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				811EA3D6200CADE4004AE1CA /* AppDelegate.h */,
+				811EA3D7200CADE4004AE1CA /* AppDelegate.m */,
+				81340C592069FD1700AA4584 /* AppDelegate+DSSideDrawer.h */,
+				81340C5A2069FD1700AA4584 /* AppDelegate+DSSideDrawer.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		812C0B99206341ED007DA666 /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				812C0B9A206341ED007DA666 /* MMDrawerBarButtonItem.h */,
+				812C0B9B206341ED007DA666 /* MMDrawerBarButtonItem.m */,
+				812C0B9C206341ED007DA666 /* MMDrawerController+Subclass.h */,
+				812C0B9D206341ED007DA666 /* MMDrawerController.h */,
+				812C0B9E206341ED007DA666 /* MMDrawerController.m */,
+				812C0B9F206341ED007DA666 /* MMDrawerVisualState.h */,
+				812C0BA0206341ED007DA666 /* MMDrawerVisualState.m */,
+				812C0BA1206341ED007DA666 /* UIViewController+MMDrawerController.h */,
+				812C0BA2206341ED007DA666 /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		812C0BAD20634832007DA666 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				812C0BB220634893007DA666 /* LYFBaseViewController.h */,
+				812C0BB320634893007DA666 /* LYFBaseViewController.m */,
+				812C0BB820634D0D007DA666 /* LYFTableViewController.h */,
+				812C0BB920634D0D007DA666 /* LYFTableViewController.m */,
+				812C0BAE2063485A007DA666 /* LYFBaseTableViewController.h */,
+				812C0BAF2063485A007DA666 /* LYFBaseTableViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		81340C4A2069EFC800AA4584 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		81340C4B2069EFEB00AA4584 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				81C979B62063603E002DB87A /* VisualStateManager */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		81340C4C2069EFFA00AA4584 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				812C0BBD20635390007DA666 /* LYFPrefixHeader.pch */,
+				812C0BBE206356A6007DA666 /* LYFMacros.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		81340C4D2069F01C00AA4584 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		81340C4E2069F02A00AA4584 /* LunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				81340C512069F9ED00AA4584 /* LYFLaunchPageViewController.h */,
+				81340C522069F9ED00AA4584 /* LYFLaunchPageViewController.m */,
+			);
+			path = LunchScreen;
+			sourceTree = "<group>";
+		};
+		81340C4F2069F04900AA4584 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				811EA3E4200CADE4004AE1CA /* Info.plist */,
+				811EA3E5200CADE4004AE1CA /* main.m */,
+				811EA3DC200CADE4004AE1CA /* Main.storyboard */,
+				811EA3DF200CADE4004AE1CA /* Assets.xcassets */,
+				811EA3E1200CADE4004AE1CA /* LaunchScreen.storyboard */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		81340C502069F0FD00AA4584 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				812C0B99206341ED007DA666 /* MMDrawerController */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		81340C542069FB4900AA4584 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				81340C67206A28E700AA4584 /* video.mp4 */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		81C979B62063603E002DB87A /* VisualStateManager */ = {
+			isa = PBXGroup;
+			children = (
+				81C979B8206360F6002DB87A /* MMExampleDrawerVisualStateManager.h */,
+				81C979B7206360F6002DB87A /* MMExampleDrawerVisualStateManager.m */,
+			);
+			path = VisualStateManager;
+			sourceTree = "<group>";
+		};
+		81C979BA20638825002DB87A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				81340C4D2069F01C00AA4584 /* Model */,
+				81C979BB2063883D002DB87A /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		81C979BB2063883D002DB87A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				81C979BC20638863002DB87A /* LYFBackButton.h */,
+				81C979BD20638863002DB87A /* LYFBackButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		81C979C220638975002DB87A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				81340C5F206A203B00AA4584 /* CALayer+Transition.h */,
+				81340C60206A203B00AA4584 /* CALayer+Transition.m */,
+				81C979C3206389A6002DB87A /* UIView+LYFExtention.h */,
+				81C979C4206389A6002DB87A /* UIView+LYFExtention.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		81C979C920638D75002DB87A /* ME */ = {
+			isa = PBXGroup;
+			children = (
+				81C979D220638E2D002DB87A /* Controller */,
+				81C979D420638E49002DB87A /* Model */,
+				81C979D320638E42002DB87A /* View */,
+			);
+			path = ME;
+			sourceTree = "<group>";
+		};
+		81C979CA20638D83002DB87A /* YOUR */ = {
+			isa = PBXGroup;
+			children = (
+				81C979D120638E19002DB87A /* Controller */,
+				81C979D020638E10002DB87A /* Model */,
+				81C979CF20638E09002DB87A /* View */,
+			);
+			path = YOUR;
+			sourceTree = "<group>";
+		};
+		81C979CB20638D9C002DB87A /* WE */ = {
+			isa = PBXGroup;
+			children = (
+				81C979CE20638E00002DB87A /* Controller */,
+				81C979CC20638DEB002DB87A /* Model */,
+				81C979CD20638DFA002DB87A /* View */,
+			);
+			path = WE;
+			sourceTree = "<group>";
+		};
+		81C979CC20638DEB002DB87A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		81C979CD20638DFA002DB87A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		81C979CE20638E00002DB87A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				81C979D820638FDA002DB87A /* LYFWEViewController.h */,
+				81C979D920638FDA002DB87A /* LYFWEViewController.m */,
+				81910C95206493DC00B057CE /* LYFWEViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		81C979CF20638E09002DB87A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		81C979D020638E10002DB87A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		81C979D120638E19002DB87A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				81C979D520638FBB002DB87A /* LYFLiYuanYuanViewController.h */,
+				81C979D620638FBB002DB87A /* LYFLiYuanYuanViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		81C979D220638E2D002DB87A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				812C0BB5206348CA007DA666 /* LYFCenterTableViewController.h */,
+				812C0BB6206348CA007DA666 /* LYFCenterTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		81C979D320638E42002DB87A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		81C979D420638E49002DB87A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		81C979DB206394C2002DB87A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				81340C542069FB4900AA4584 /* Video */,
+				81C979DC206394DE002DB87A /* Icon */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		81C979DC206394DE002DB87A /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				81DCE3F2206CCAA000B571E0 /* mobile.png */,
+				81DCE3F0206CC8E200B571E0 /* qq.png */,
+				81DCE3EE206CC74200B571E0 /* weixin.png */,
+				81C979DD206394F8002DB87A /* Tabar */,
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
+		81C979DD206394F8002DB87A /* Tabar */ = {
+			isa = PBXGroup;
+			children = (
+				81C979DE206394F8002DB87A /* me@2x.png */,
+				81C979DF206394F8002DB87A /* me@3x.png */,
+				81C979E0206394F8002DB87A /* me_select@2x.png */,
+				81C979E1206394F8002DB87A /* me_select@3x.png */,
+				81C979E2206394F8002DB87A /* we@2x.png */,
+				81C979E3206394F8002DB87A /* we@3x.png */,
+				81C979E4206394F8002DB87A /* we_select@2x.png */,
+				81C979E5206394F8002DB87A /* we_select@3x.png */,
+				81C979E6206394F8002DB87A /* you@2x.png */,
+				81C979E7206394F8002DB87A /* you@3x.png */,
+				81C979E8206394F8002DB87A /* you_select@2x.png */,
+				81C979E9206394F9002DB87A /* you_select@3x.png */,
+			);
+			path = Tabar;
+			sourceTree = "<group>";
+		};
+		81DCE3ED206CB77F00B571E0 /* LoginAndRegister */ = {
+			isa = PBXGroup;
+			children = (
+				81DCE3F9206CD2D600B571E0 /* LYFLoginViewController.h */,
+				81DCE3FA206CD2D600B571E0 /* LYFLoginViewController.m */,
+				81DCE3FB206CD2D600B571E0 /* LYFLoginViewController.xib */,
+				810C0323206DDC48006EFB82 /* LYFVerifyViewController.h */,
+				810C0324206DDC48006EFB82 /* LYFVerifyViewController.m */,
+				810C0325206DDC48006EFB82 /* LYFVerifyViewController.xib */,
+			);
+			path = LoginAndRegister;
+			sourceTree = "<group>";
+		};
+		C4C6F857F7EAC76233A7A9E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				891AB943F40E47F647E2D585 /* Pods-Lover.debug.xcconfig */,
+				C56B80AD4D7DE1EEE0A41F74 /* Pods-Lover.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CFAF64AA2981A610FD75517D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C6B557494841ABCF8A6AD22 /* libPods-Lover.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		811EA3D2200CADE4004AE1CA /* Lover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 811EA3E9200CADE4004AE1CA /* Build configuration list for PBXNativeTarget "Lover" */;
+			buildPhases = (
+				13D52AA9FCF21885C602A733 /* [CP] Check Pods Manifest.lock */,
+				811EA3CF200CADE4004AE1CA /* Sources */,
+				811EA3D0200CADE4004AE1CA /* Frameworks */,
+				811EA3D1200CADE4004AE1CA /* Resources */,
+				D1C5BCD3DE2B41D4EBEB6004 /* [CP] Embed Pods Frameworks */,
+				B4E6F760E36171D6C5948830 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lover;
+			productName = Lover;
+			productReference = 811EA3D3200CADE4004AE1CA /* Lover.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		811EA3CB200CADE4004AE1CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LYF;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ios;
+				TargetAttributes = {
+					811EA3D2200CADE4004AE1CA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 811EA3CE200CADE4004AE1CA /* Build configuration list for PBXProject "Lover" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 811EA3CA200CADE4004AE1CA;
+			productRefGroup = 811EA3D4200CADE4004AE1CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				811EA3D2200CADE4004AE1CA /* Lover */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		811EA3D1200CADE4004AE1CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C979F2206394F9002DB87A /* you@2x.png in Resources */,
+				810C0327206DDC48006EFB82 /* LYFVerifyViewController.xib in Resources */,
+				81C979F0206394F9002DB87A /* we_select@2x.png in Resources */,
+				81C979EA206394F9002DB87A /* me@2x.png in Resources */,
+				81340C68206A28E700AA4584 /* video.mp4 in Resources */,
+				811EA3E3200CADE4004AE1CA /* LaunchScreen.storyboard in Resources */,
+				81C979EF206394F9002DB87A /* we@3x.png in Resources */,
+				81DCE3FD206CD2D600B571E0 /* LYFLoginViewController.xib in Resources */,
+				81C979F1206394F9002DB87A /* we_select@3x.png in Resources */,
+				81C979EE206394F9002DB87A /* we@2x.png in Resources */,
+				81C979F5206394F9002DB87A /* you_select@3x.png in Resources */,
+				811EA3E0200CADE4004AE1CA /* Assets.xcassets in Resources */,
+				811EA3DE200CADE4004AE1CA /* Main.storyboard in Resources */,
+				81C979EC206394F9002DB87A /* me_select@2x.png in Resources */,
+				81DCE3EF206CC74200B571E0 /* weixin.png in Resources */,
+				81C979ED206394F9002DB87A /* me_select@3x.png in Resources */,
+				81DCE3F1206CC8E200B571E0 /* qq.png in Resources */,
+				81C979EB206394F9002DB87A /* me@3x.png in Resources */,
+				81C979F4206394F9002DB87A /* you_select@2x.png in Resources */,
+				81DCE3F3206CCAA000B571E0 /* mobile.png in Resources */,
+				81910C96206493DC00B057CE /* LYFWEViewController.xib in Resources */,
+				81C979F3206394F9002DB87A /* you@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13D52AA9FCF21885C602A733 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B4E6F760E36171D6C5948830 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lover/Pods-Lover-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1C5BCD3DE2B41D4EBEB6004 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lover/Pods-Lover-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		811EA3CF200CADE4004AE1CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812C0BA5206341ED007DA666 /* MMDrawerVisualState.m in Sources */,
+				81C979B520635BCC002DB87A /* LYFRightSideDrawerViewController.m in Sources */,
+				81340C532069F9ED00AA4584 /* LYFLaunchPageViewController.m in Sources */,
+				81C979BE20638863002DB87A /* LYFBackButton.m in Sources */,
+				811EA3E6200CADE4004AE1CA /* main.m in Sources */,
+				81C979DA20638FDA002DB87A /* LYFWEViewController.m in Sources */,
+				81C979C820638AC3002DB87A /* LYFTabBarViewController.m in Sources */,
+				812C0BA3206341ED007DA666 /* MMDrawerBarButtonItem.m in Sources */,
+				812C0BA6206341ED007DA666 /* UIViewController+MMDrawerController.m in Sources */,
+				812C0BB7206348CA007DA666 /* LYFCenterTableViewController.m in Sources */,
+				812C0BB02063485A007DA666 /* LYFBaseTableViewController.m in Sources */,
+				81C979D720638FBB002DB87A /* LYFLiYuanYuanViewController.m in Sources */,
+				81340C63206A203B00AA4584 /* CALayer+Transition.m in Sources */,
+				81C979B9206360F6002DB87A /* MMExampleDrawerVisualStateManager.m in Sources */,
+				812C0BA9206346B5007DA666 /* LYFNavigationController.m in Sources */,
+				812C0BB420634893007DA666 /* LYFBaseViewController.m in Sources */,
+				81C979B220635A62002DB87A /* LYFSideDrawerViewController.m in Sources */,
+				812C0BBA20634D0D007DA666 /* LYFTableViewController.m in Sources */,
+				81C979C5206389A6002DB87A /* UIView+LYFExtention.m in Sources */,
+				810C0326206DDC48006EFB82 /* LYFVerifyViewController.m in Sources */,
+				812C0BA4206341ED007DA666 /* MMDrawerController.m in Sources */,
+				81340C5B2069FD1700AA4584 /* AppDelegate+DSSideDrawer.m in Sources */,
+				81DCE3FC206CD2D600B571E0 /* LYFLoginViewController.m in Sources */,
+				811EA3D8200CADE4004AE1CA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		811EA3DC200CADE4004AE1CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				811EA3DD200CADE4004AE1CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		811EA3E1200CADE4004AE1CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				811EA3E2200CADE4004AE1CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		811EA3E7200CADE4004AE1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		811EA3E8200CADE4004AE1CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		811EA3EA200CADE4004AE1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 891AB943F40E47F647E2D585 /* Pods-Lover.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94NKVLYP44;
+				GCC_PREFIX_HEADER = "/Users/ios/Desktop/私人勿动/Lover/Lover/Other/Config/LYFPrefixHeader.pch";
+				INFOPLIST_FILE = "Lover/Base/Support Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lover.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		811EA3EB200CADE4004AE1CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C56B80AD4D7DE1EEE0A41F74 /* Pods-Lover.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94NKVLYP44;
+				GCC_PREFIX_HEADER = "/Users/ios/Desktop/私人勿动/Lover/Lover/Other/Config/LYFPrefixHeader.pch";
+				INFOPLIST_FILE = "Lover/Base/Support Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lover.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		811EA3CE200CADE4004AE1CA /* Build configuration list for PBXProject "Lover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				811EA3E7200CADE4004AE1CA /* Debug */,
+				811EA3E8200CADE4004AE1CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		811EA3E9200CADE4004AE1CA /* Build configuration list for PBXNativeTarget "Lover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				811EA3EA200CADE4004AE1CA /* Debug */,
+				811EA3EB200CADE4004AE1CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 811EA3CB200CADE4004AE1CA /* Project object */;
+}
